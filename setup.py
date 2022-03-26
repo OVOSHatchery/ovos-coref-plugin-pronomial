@@ -11,7 +11,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     packages=['ovos_coref_plugin_pronomial'],
-    install_requires=["ovos-plugin-manager", "pronomial"],
+    install_requires=["ovos-plugin-manager~=0.0.16", "pronomial"],
     zip_safe=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
